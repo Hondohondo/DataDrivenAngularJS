@@ -1,0 +1,13 @@
+<div class="card meetings">
+
+  <div class="textintro">
+    <h1>Add Meeting</h1>
+    <form name="myform" class="formgroup addmeeting" ng-submit="addMeeting()" novalidate>
+      <div class="inputwrapper">
+        <input type="text" name="meetingname" placeholder="Meeting name" ng-model="meetingname" ng-required="true">
+      </div>
+      <button type="submit" class="btn" ng-disabled="myform.$invalid">+</button>
+
+    </form>
+  </div>
+</div>

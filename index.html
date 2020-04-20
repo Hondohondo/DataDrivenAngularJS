@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="myApp">
+<head>
+  <meta charset="UTF-8">
+  <title>ANGULARJS Data</title>
+  <link rel="stylesheet" href="css/style.css">
+
+  <script src="js/lib/angular/angular.min.js"></script>
+  <script src="js/lib/angular/angular-route.min.js"></script>
+  <script src="js/lib/angular/angular-animate.min.js"></script>
+
+  <!-- The core Firebase JS SDK is always required and must be listed first -->
+  <script src="https://www.gstatic.com/firebasejs/3.6.0/firebase.js"></script>
+
+  <script>
+    // Your web app's Firebase configuration
+    var firebaseConfig = {
+      apiKey: "AIzaSyBY-080CuftNge9clUJqPWMt3AgZ5_JTUI",
+      authDomain: "datadrivenangularjs.firebaseapp.com",
+      databaseURL: "https://datadrivenangularjs.firebaseio.com",
+      projectId: "datadrivenangularjs",
+      storageBucket: "datadrivenangularjs.appspot.com",
+      messagingSenderId: "720543487856",
+      appId: "1:720543487856:web:9d3db099e83230ba9ee1b5"
+    };
+    // Initialize Firebase
+    firebase.initializeApp(firebaseConfig);
+  </script>
+
+  <script src="https://cdn.firebase.com/libs/angularfire/2.3.0/angularfire.min.js">
+
+  </script>
+
+  <script src="js/app.js"></script>
+  <script src="js/services/authentication.js"></script>
+  <script src="js/controllers/registration.js"></script>
+  <script src="js/controllers/meetings.js"></script>
+
+</head>
+<body>
+
+<div class="wrapper">
+
+  <header class="header">
+    <nav class="main-nav" ng-include="'views/nav.html'">
+
+    </nav>
+  </header>
+
+  <div class="userinfo" ng-show="currentUser" ng-controller="RegistrationController">
+    <span class="userinfo"> Hi {{currentUser.firstname}}</span>
+    <a ng-href="#/login" ng-click="logout()">logout</a>
+  </div>
+
+  <main class="main" ng-view>
+
+
+  </main>
+
+</div>
+
+</body>
+</html>
+
+
+
+<!--<main class="main" ng-controller="appController">-->
+
+<!--  {{message}}-->
+
+<!--</main>-->
