@@ -1,7 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="09bf511d-cd62-4649-b5f2-a504aae7ddf2" name="Default Changelist" comment="" />
+    <list default="true" id="09bf511d-cd62-4649-b5f2-a504aae7ddf2" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/controllers/meetings.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/controllers/meetings.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/meetings.html" beforeDir="false" afterPath="$PROJECT_DIR$/views/meetings.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/nav.html" beforeDir="false" afterPath="$PROJECT_DIR$/views/nav.html" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -11,8 +18,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="CSS File" />
-        <option value="HTML File" />
         <option value="JavaScript File" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -62,7 +69,8 @@
       <workItem from="1586449707705" duration="10621000" />
       <workItem from="1587395590985" duration="11432000" />
       <workItem from="1587409202774" duration="204000" />
-      <workItem from="1587409462298" duration="3250000" />
+      <workItem from="1587409462298" duration="4658000" />
+      <workItem from="1587490388373" duration="4258000" />
     </task>
     <servers />
   </component>
@@ -70,9 +78,9 @@
     <option name="version" value="2" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1587397515664">
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1587491850827">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1587397515664" />
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1587491850827" />
   </component>
 </project>
